@@ -1,0 +1,32 @@
+/* Custom Dark Mode Theme Overrides */
+body.dark-mode {
+    background-color: #121212 !important;
+    color: #e0e0e0 !important;
+}
+
+body.dark-mode .card {
+    background-color: #1e1e1e !important;
+    color: #ffffff !important;
+    border-color: #333333 !important;
+}
+
+body.dark-mode .card-footer {
+    background-color: #282828 !important;
+    border-top: 1px solid #333333 !important;
+}
+
+body.dark-mode h1, 
+body.dark-mode h2, 
+body.dark-mode h5 {
+    color: #ffffff;
+}
+
+body.dark-mode .text-danger {
+    color: #ff4d4d !important; /* Un rojo más brillante para el modo oscuro */
+}
+
+/* Efectos hover para los enlaces del footer */
+footer a:hover {
+    color: #ff4d4d !important;
+    text-decoration: underline !important;
+}
